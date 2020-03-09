@@ -11,3 +11,11 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+## if the phrase is equal to "I LOVE YOU GRANDMA!"
+## then return "I LOVE YOU TOO PUMPKIN!"
+
+def speak_to_grandma(phrase)
+  if phrase=="I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  
